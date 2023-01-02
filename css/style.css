@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box; /* Cuando agreguemos un width y despues un padding no modifique el tamaño de ese elemento */
+    font-size: 16px;  /* Este es el default */
+    font-size: 62.5% /* 1Rem = 10px */;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
